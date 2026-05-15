@@ -3,7 +3,7 @@
   "id": "manhunt_compass",
   "version": "${version}",
   "name": "Manhunt Compass",
-  "description": "Server-side manhunt tracking compass ported from ManhuntCompass (Bukkit).",
+  "description": "manhunt compass.",
   "authors": [
     "nullman"
   ],
