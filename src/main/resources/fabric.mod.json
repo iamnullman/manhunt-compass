@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "manhunt_compass",
+  "version": "${version}",
+  "name": "Manhunt Compass",
+  "description": "Server-side manhunt tracking compass ported from ManhuntCompass (Bukkit).",
+  "authors": [
+    "nullman"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.nullman.compass.ManhuntCompassMod"
+    ]
+  },
+  "mixins": [
+    "manhunt-compass.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
